@@ -1,0 +1,47 @@
+*{margin: 0; padding: 0;}
+header{
+    width: 100%;
+    height: 100vh;
+}
+.navsection{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: linear-gradient(lightblue,green);
+}
+.logo h1{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    animation: aagepiche1 3s linear infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes aagepiche1 {
+    from{ padding-left: 40px;}
+    to{ padding-right: 40px;};
+}
+.logo h2{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    animation: aagepiche 2.5s linear infinite;
+    animation-direction: alternate;
+    
+}
+@keyframes aagepiche {
+    from{ padding-left: 80px;}
+    to{ padding-right: 20px;};
+}
+nav{
+    width: 20%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(#0f174d 60%, #854fee 40%);
+}
