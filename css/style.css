@@ -68,3 +68,6 @@ body{
     height: 80vh;
     background-image: linear-gradient(#0f174d 60%, #854fee 40%);
 }
+.para{
+    color: antiquewhite;
+}
