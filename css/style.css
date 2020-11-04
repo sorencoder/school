@@ -34,11 +34,34 @@ header{
     to{ padding-right: 20px;};
 }
 nav{
-    width: 20%;
-    height: 20vh;
+    width: 60%;
+   /* height: 20vh;*/
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:whitesmoke;
+    font-weight: 900;
+    position: relative;
+}
+/*nav a:first-child{
+    color: #4458dc;
+}*/
+nav a:before{
+    content: "";
+    position: absolute;
+    top: 110%;
+    left: 0%;
+    width: 0%;
+    height: 2px;
+    border-bottom: 2px solid #4458dc;
+    transition: all 0.4s linear;
+}
+nav a:hover:before{
+    width: 100%;
 }
 body{
     width: 100%;
