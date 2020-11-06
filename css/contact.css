@@ -11,6 +11,11 @@ header{
     align-items: center;
     background-image: linear-gradient(lightblue,green);
 }
+body{
+    width: 100%;
+    height: 80vh;
+    background-color: teal;
+}
 .logo h1{
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -33,17 +38,6 @@ header{
     from{ padding-left: 80px;}
     to{ padding-right: 20px;};
 }
-body{
-    width: 100%;
-    height: 80vh;
-    background-color: teal;
-}
-.para{
-    color: antiquewhite;
-    text-align: center;
-    font-size: 1.6rem;
-}
-/* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
     color: white;
@@ -84,7 +78,10 @@ body{
   
   /* Change the background color of the dropdown button when the dropdown content is shown */
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-  .body{
-      text-align: center;
-      color: white;
-  }
+.contact{
+    height: 0.5vh;
+    color:lightgrey;
+    padding-left: 50px;
+    text-align: bottom;
+    align-items: bottom;
+}
